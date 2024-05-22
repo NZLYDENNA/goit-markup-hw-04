@@ -99,20 +99,21 @@ img {
 .servis {
     background-color: #2e2f42;
     padding: 188px 0;
+    background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+        ),
+        url(./images/people-office.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .container-servis {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)
-        ),
-        url(./images/people-office.jpg);
-    background-color: #2e2f42b2;
-    max-width: 1440px;
-    background-repeat: no-repeat;
 }
 .idea-servis {
     font-size: 56px;
@@ -136,6 +137,7 @@ img {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .servis .button-servis:hover,
 .servis .button-servis:focus {
