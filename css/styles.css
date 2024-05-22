@@ -172,10 +172,13 @@ img {
     width: 264px;
     height: 112px;
     gap: 0px;
-    border-radius: 4px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
+    border-radius: 4px;
     background-color: #f4f4fd;
-    border-color: #8e8f99;
+    border: 1px solid #8e8f99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
 }
 .featers-icons {
     padding-top: 24px;
