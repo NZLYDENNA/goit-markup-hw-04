@@ -353,3 +353,6 @@ img {
     text-align: left;
     color: #ffffff;
 }
+.icon {
+    --color: #f4f4fd;
+}
