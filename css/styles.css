@@ -266,3 +266,35 @@ img {
     letter-spacing: 0.02em;
     max-width: 264px;
 }
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socisl-icons-list {
+    list-style-type: none;
+    width: 208px;
+    height: 40px;
+    top: 3296px;
+    left: 540px;
+    gap: 16px;
+    display: flex;
+}
+.elipse {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 8px;
+}
+.social-media {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ffffff;
+}
