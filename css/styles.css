@@ -262,7 +262,7 @@ img {
     justify-content: center;
 }
 .personal-pages:hover,
-.personal-pages:active {
+.personal-pages:focus {
     background-color: #404bbf;
 }
 .projects-block {
