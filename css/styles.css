@@ -306,10 +306,10 @@ img {
     cursor: pointer;
 }
 .list-item:hover {
-    box-shadow: #4d5ae5;
+    box-shadow: inset;
 }
 .list-item:focus {
-    box-shadow: #4d5ae5;
+    box-shadow: inset;
 }
 .name-project {
     padding: 32px 16px;
