@@ -277,6 +277,9 @@ img {
 .personal-pages:focus {
     background-color: #404bbf;
 }
+.personal-pages .icon {
+    --color: #f4f4fd;
+}
 .projects-block {
     background-color: #ffffff;
     padding: 120px 0 120px 0;
