@@ -305,8 +305,10 @@ img {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 }
-.list-item:hover,
-.list-item:active {
+.list-item:hover {
+    box-shadow: #4d5ae5;
+}
+.list-item:focus {
     box-shadow: #4d5ae5;
 }
 .name-project {
