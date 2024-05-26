@@ -380,6 +380,7 @@ img {
     height: 40px;
     top: 3296px;
     left: 540px;
+
     display: flex;
     gap: 16px;
 }
