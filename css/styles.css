@@ -299,7 +299,6 @@ img {
     column-gap: 24px;
     row-gap: 48px;
     list-style-type: none;
-    position: relative;
 }
 .list-item {
     width: calc((100% - 48px) / 3);
