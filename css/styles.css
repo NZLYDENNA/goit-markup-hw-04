@@ -392,6 +392,15 @@ img {
     display: flex;
     gap: 16px;
 }
+.social-media {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
 .elipse {
     width: 40px;
     height: 40px;
@@ -402,16 +411,7 @@ img {
     align-items: center;
     justify-content: center;
 }
-.social-media {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 16px;
-}
-.elipse .reference {
+.reference {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
