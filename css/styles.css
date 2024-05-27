@@ -385,7 +385,6 @@ img {
     top: 3296px;
     left: 540px;
     display: flex;
-    flex-wrap: wrap;
     gap: 16px;
 }
 .elipse {
