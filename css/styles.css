@@ -327,6 +327,9 @@ img {
     overflow: hidden;
     position: relative;
 }
+.aplication-image:hover .aplication-content {
+    transform: translateY(0);
+}
 .aplication-content {
     font-size: 16px;
     line-height: 1.5;
@@ -340,6 +343,7 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
 }
+
 .ending {
     background-color: #2e2f42;
     padding: 100px 0;
